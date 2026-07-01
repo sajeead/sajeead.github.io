@@ -1,6 +1,56 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Navigation */
+nav {
+    background: #2563eb;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #2563eb, #0f172a);
+    background: linear-gradient(135deg, #2563eb, #111827);
     color: white;
     text-align: center;
     padding: 80px 20px;
@@ -18,9 +68,9 @@
 
 .btn {
     display: inline-block;
-    padding: 14px 30px;
     background: white;
     color: #2563eb;
+    padding: 14px 28px;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
@@ -29,5 +79,43 @@
 
 .btn:hover {
     background: #e2e8f0;
-    transform: translateY(-3px);
+}
+
+/* Main */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
