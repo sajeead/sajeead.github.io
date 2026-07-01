@@ -119,3 +119,14 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+.card-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.card-link:hover .card{
+    transform:translateY(-5px);
+    transition:0.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
